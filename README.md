@@ -45,7 +45,7 @@ from keras.models import load_model
 
 # Load the saved model
 loaded_model = load_model("version_finetuned.keras")
-instruction = "How to code in python and c#"
+instruction = "How to code in python, Give me An example code"
 response = ""
 
 # Create the input prompt
