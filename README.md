@@ -16,10 +16,10 @@ This repository contains the code and model for fine-tuning the Gemma 2b Instruc
 
 The Gemma 2b Instruction Fine-Tuned Model was fine-tuned using the following process:
 
-1. **Data Preparation:** 20k medium articles were used as the training dataset.
+1. **Data Preparation:** 20k medium articles were used as the training dataset. access [Dataset](https://huggingface.co/likith123/Gemma_2B_Medium_20k_FT/blob/main/my_dataframe.gz).
 2. **Model Configuration:** Gemma 2b Instruction model was used as the base model.
 3. **Hyperparameters Tuning:** AdamW optimizer was used with customized learning rates and weight decays.
-5. **Training:** The model was trained for 2 epochs with a batch size of 2 Due to lack of GPU Clusters to handle this 2B model even with LORA config.
+5. **Training:** The model was trained for 2 epochs with a batch size of 2 Due to lack of GPU Clusters to handle this 2B model even with LORA config. [Kaggle](https://www.kaggle.com/code/meruvulikith/finetuning-lora-gemma-2b-with-medium-articles/notebook).
 
 ## Usage
 
